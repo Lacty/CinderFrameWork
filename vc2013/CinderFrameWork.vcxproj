@@ -111,6 +111,8 @@
     <ClCompile Include="..\src\MyLib\graph.cpp" />
     <ClCompile Include="..\src\MyLib\key.cpp" />
     <ClCompile Include="..\src\MyLib\mouse.cpp" />
+    <ClCompile Include="..\src\Scene\scene.cpp" />
+    <ClCompile Include="..\src\System\scene_mgr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h" />
@@ -120,6 +122,8 @@
     <ClInclude Include="..\src\MyLib\mouse.h" />
     <ClInclude Include="..\src\MyLib\noncopyable.h" />
     <ClInclude Include="..\src\MyLib\window_size.h" />
+    <ClInclude Include="..\src\Scene\scene.h" />
+    <ClInclude Include="..\src\System\scene_mgr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

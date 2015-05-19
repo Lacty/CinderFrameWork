@@ -16,6 +16,12 @@
     <Filter Include="MyLib">
       <UniqueIdentifier>{49be4b68-13de-4550-8a8b-4d24fdd4d7f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{4482c317-a9d7-4c72-97d5-72c5f8838e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{8cac7ee3-36c4-4fa0-993f-ff0c996fd5c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\CinderFrameWorkApp.cpp">
@@ -35,6 +41,12 @@
     </ClCompile>
     <ClCompile Include="..\src\MyLib\mouse.cpp">
       <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene\scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\scene_mgr.cpp">
+      <Filter>System</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +70,12 @@
     </ClInclude>
     <ClInclude Include="..\src\MyLib\noncopyable.h">
       <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene\scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\scene_mgr.h">
+      <Filter>System</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
