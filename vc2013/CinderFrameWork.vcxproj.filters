@@ -56,6 +56,9 @@
     <ClInclude Include="..\src\MyLib\ci_app.h">
       <Filter>MyLib</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\MyLib\noncopyable.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resources.rc">

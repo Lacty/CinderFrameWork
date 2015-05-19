@@ -118,6 +118,7 @@
     <ClInclude Include="..\src\MyLib\graph.h" />
     <ClInclude Include="..\src\MyLib\key.h" />
     <ClInclude Include="..\src\MyLib\mouse.h" />
+    <ClInclude Include="..\src\MyLib\noncopyable.h" />
     <ClInclude Include="..\src\MyLib\window_size.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
