@@ -1,5 +1,7 @@
 
 #include "scene.h"
+#include "../System/scene_mgr.h"
 
 
-Scene::Scene() {}
+Scene::Scene(SceneMgr* mgr) :
+m_mgr(mgr) {}

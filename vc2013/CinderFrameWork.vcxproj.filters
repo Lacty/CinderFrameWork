@@ -20,7 +20,10 @@
       <UniqueIdentifier>{4482c317-a9d7-4c72-97d5-72c5f8838e44}</UniqueIdentifier>
     </Filter>
     <Filter Include="System">
-      <UniqueIdentifier>{8cac7ee3-36c4-4fa0-993f-ff0c996fd5c7}</UniqueIdentifier>
+      <UniqueIdentifier>{b55333de-a37c-412e-9528-29d1e8ec815f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Title">
+      <UniqueIdentifier>{c368c898-8dbb-4a7e-8351-50a806e03fe2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="..\src\System\scene_mgr.cpp">
       <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene\Title\title.cpp">
+      <Filter>Scene\Title</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="..\src\System\scene_mgr.h">
       <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene\Title\title.h">
+      <Filter>Scene\Title</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

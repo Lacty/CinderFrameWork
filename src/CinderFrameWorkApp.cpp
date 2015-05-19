@@ -5,8 +5,13 @@
 #include "MyLib/key.h"
 #include "cinder/Rand.h"
 
+#include "System/scene_mgr.h"
+
 
 class CinderFrameWorkApp : public AppNative {
+private:
+  SceneMgr scene;
+
 public:
   void mouseDown(MouseEvent event) {
     Mouse::get().PushEvent(event);
@@ -41,10 +46,14 @@ void CinderFrameWorkApp::setup() {
   gl::enableAlphaBlending();
 }
 
-void CinderFrameWorkApp::update() {}
+void CinderFrameWorkApp::update() {
+  scene.update();
+}
 
 void CinderFrameWorkApp::draw() {
   gl::clear();
+
+  scene.draw();
 
   Mouse::get().flashInput();
   Key::get().flashInput();
