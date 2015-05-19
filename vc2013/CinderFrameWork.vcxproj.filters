@@ -41,9 +41,6 @@
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\MyLib\common.h">
-      <Filter>MyLib</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\MyLib\graph.h">
       <Filter>MyLib</Filter>
     </ClInclude>
@@ -51,6 +48,12 @@
       <Filter>MyLib</Filter>
     </ClInclude>
     <ClInclude Include="..\src\MyLib\mouse.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyLib\window_size.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyLib\ci_app.h">
       <Filter>MyLib</Filter>
     </ClInclude>
   </ItemGroup>

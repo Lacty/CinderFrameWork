@@ -1,8 +1,10 @@
 
-#include "MyLib/common.h"
+#include "MyLib/window_size.h"
+#include "MyLib/ci_app.h"
 #include "MyLib/mouse.h"
 #include "MyLib/key.h"
 #include "cinder/Rand.h"
+
 
 class CinderFrameWorkApp : public AppNative {
 public:
