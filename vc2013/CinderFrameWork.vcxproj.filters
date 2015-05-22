@@ -28,6 +28,9 @@
     <Filter Include="Scene\Game">
       <UniqueIdentifier>{d09896af-d3af-4b7e-98c7-523144b493e4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{df291773-614a-4efc-9dc1-11e9ffc23811}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\CinderFrameWorkApp.cpp">
@@ -59,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="..\src\Scene\Game\game_main.cpp">
       <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Object\object.cpp">
+      <Filter>Object</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +100,9 @@
     </ClInclude>
     <ClInclude Include="..\src\Scene\Game\game_main.h">
       <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Object\object.h">
+      <Filter>Object</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
