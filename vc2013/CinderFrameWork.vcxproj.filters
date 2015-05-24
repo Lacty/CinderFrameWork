@@ -66,6 +66,9 @@
     <ClCompile Include="..\src\Object\object.cpp">
       <Filter>Object</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Object\task.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
@@ -102,6 +105,9 @@
       <Filter>Scene\Game</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Object\object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Object\task.h">
       <Filter>Object</Filter>
     </ClInclude>
   </ItemGroup>

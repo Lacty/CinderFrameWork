@@ -16,4 +16,7 @@ public:
   std::string getName() const {
     return m_name;
   }
+
+  virtual void update() = 0;
+  virtual void draw()   = 0;
 };
