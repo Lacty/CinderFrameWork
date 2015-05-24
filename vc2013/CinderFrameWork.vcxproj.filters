@@ -31,6 +31,9 @@
     <Filter Include="Object">
       <UniqueIdentifier>{df291773-614a-4efc-9dc1-11e9ffc23811}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{b7e99544-cf3d-42cd-a770-5d2512644331}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\CinderFrameWorkApp.cpp">
@@ -68,6 +71,9 @@
     </ClCompile>
     <ClCompile Include="..\src\Object\task.cpp">
       <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Object\Player\player.cpp">
+      <Filter>Object\Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +115,9 @@
     </ClInclude>
     <ClInclude Include="..\src\Object\task.h">
       <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Object\Player\player.h">
+      <Filter>Object\Player</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

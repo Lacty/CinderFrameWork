@@ -5,7 +5,7 @@
 
 
 class Object : public ly::noncopyable {
-private:
+protected:
   std::string m_name;
 
 public:

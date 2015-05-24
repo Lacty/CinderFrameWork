@@ -6,6 +6,7 @@
 #include "cinder/Rand.h"
 
 #include "System/scene_mgr.h"
+#include "Object/task.h"
 
 
 class CinderFrameWorkApp : public AppNative {
@@ -42,6 +43,7 @@ void CinderFrameWorkApp::setup() {
                 int(WindowSize::Height));
   Mouse::get();
   Key::get();
+  Task::getInstance();
   Rand::randomize();
   gl::enableAlphaBlending();
 }
